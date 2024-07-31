@@ -28,7 +28,6 @@ public class Customer {
 
 	public Customer() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Customer(int cid, String cname, String mobile, String city, Product products) {

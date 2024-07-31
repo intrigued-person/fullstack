@@ -53,7 +53,7 @@ public class ProdController {
 	public String updateBooks(@RequestBody Product bk) {
 		String msg = "";
 		try {
-			service.updateProduct(bk);;
+			service.updateProduct(bk);
 			msg = "updated";
 		} catch (Exception e) {
 			e.printStackTrace();
